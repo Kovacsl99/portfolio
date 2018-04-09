@@ -1,0 +1,135 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+
+body {
+	font-family: 'Khand', sans-serif;
+}
+
+main {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 45px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 25px;
+}
+
+p {
+	font-size: 16px;
+}
+
+a {
+	color: #8f0057;
+	text-decoration: none;
+}
+
+.content {
+	color: #8f0057;
+	position: relative;
+	background-color: #f2f2f2;
+}
+
+.main-image {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	position: relative;
+	/*display: inline-block;*/
+}
+
+#hero {
+	width: inherit;
+	max-width: inherit;
+	display: block;
+}
+
+#logo {
+	position: absolute;
+	width: 8%;
+	top: 4%;
+    left: 2%;
+}
+
+#name {
+	position: absolute;
+	width: 34%;
+	top: 4%;
+    right: 2%;
+}
+
+.projects {
+	width: 100%;
+	max-width: 960px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.project {
+	width: 250px;
+	height: 280px;
+	text-align: center;
+	border: 1px solid #8f0057;
+	margin: 0 10px 20px 10px;
+	background-color: #fff;
+}
+
+.project-image {
+	width: 248px;
+	height: 200px;
+}
+
+
+footer {
+	height: 60px;
+	width: 100%;
+	max-width: 960px;
+	background-color: #8f0057;
+	text-align: center;
+	padding: 15px;
+}
+
+footer a{
+	font-size: 20px;
+	color: white;
+	margin-top: 20px;
+	padding: 20px;
+}
+
+
+
+@media screen and (max-width: 550px) {
+	#logo {
+		width: 10%;
+	}
+
+	#name {
+		width: 45%;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 38px;
+	}
+	#logo {
+		width: 14%;
+		top: 8%;
+		left: 10%;
+	}
+	#name {
+		width: 60%;
+		top: 8%;
+		right: 10%;
+	}
+}
